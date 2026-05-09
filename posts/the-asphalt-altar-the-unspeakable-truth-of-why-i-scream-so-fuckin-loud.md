@@ -1,8 +1,12 @@
 ---
-title: "The Asphalt Altar: The Unspeakable Truth of Why I Scream So Fuckin' Loud"
-date: 2026-05-09T09:55:23-05:00
+title: 'The Asphalt Altar: The Unspeakable Truth of Why I Scream So Fuckin'' Loud'
+date: 2026-05-09 09:55:23 -05:00
 draft: true
-tags: [the-asphalt-altar, survival-guide, no-bullshit-grief, uncensored-grief]
+tags:
+- the-asphalt-altar
+- survival-guide
+- no-bullshit-grief
+- uncensored-grief
 ---
 
 Alright, you magnificent, battle-scarred survivors. You’ve walked with me through the immediate blast zone. You’ve navigated the messy middle, wrestled with ghosts, and cursed the endless parade of clueless idiots. You understand, by now, that my words are raw, my truth is brutal, and I don’t give a single, solitary fuck about any comfort zone. Because what I’ve seen, what I’ve lived, makes that comfort zone a fucking fairy tale.
