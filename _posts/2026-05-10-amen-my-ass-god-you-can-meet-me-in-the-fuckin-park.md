@@ -1,8 +1,9 @@
 ---
-title: "AMEN, MY ASS: GOD, YOU CAN MEET ME IN THE FUCKIN' PARKING LOT"
-date: 2026-05-10
+title: 'AMEN, MY ASS: GOD, YOU CAN MEET ME IN THE FUCKIN'' PARKING LOT'
+date: 2026-05-10 00:00:00 -05:00
+categories:
+- blog
 layout: single
-categories: [blog]
 ---
 
 Alright, you God-fearing, God-doubting, God-damning saints and sinners, believers and blasphemers, let’s get real uncomfortable. Pull up a pew, or a barstool, or just find a relatively clean patch of rubble to plant your weary ass on. We’re about to wade into the holiest of shitstorms, the kind of theological cage match that makes polite society choke on its communion wafers and sends good little choirboys running for the goddamn exits.
