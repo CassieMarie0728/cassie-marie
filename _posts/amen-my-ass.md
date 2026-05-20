@@ -1,17 +1,17 @@
 ---
 title: 'AMEN, MY ASS: GOD, YOU CAN MEET ME IN THE FUCKIN'' PARKING LOT'
-date: 2026-05-10T05:00:00.000Z
+date: 2026-05-10 00:00:00 -05:00
 categories:
-  - blog
-  - the-aftermath-diaries
-  - holy-sh*t-theyre-gone
-  - survival-guide
-  - uncensored-grief
-  - unfiltered-grief
-  - no-bullshit-grief
+- blog
+- the-aftermath-diaries
+- holy-sh*t-theyre-gone
+- survival-guide
+- uncensored-grief
+- unfiltered-grief
+- no-bullshit-grief
 layout: single
-
 ---
+
 <p style="text-align: center;"><img src="https://sls-ci-bowtie-houndstooth-root-us-east-1-assets.s3.amazonaws.com/CassieMarie0728/cassie-marie/1779303687241-1000220666.png" alt="" width="1080" height="721" /></p>
 <p style="text-align: justify;"><span style="font-family: 'courier new', courier, monospace;">Alright, you God-fearing, God-doubting, God-damning saints and sinners, believers and blasphemers, let&rsquo;s get real uncomfortable.&nbsp;Pull up a pew, or a barstool, or just find a relatively clean patch of rubble to plant your weary ass on.&nbsp;We&rsquo;re about to wade into the holiest of shitstorms, the kind of theological cage match that makes polite society choke on its communion wafers and sends good little choirboys running for the goddamn exits.</span></p>
 <p style="text-align: justify;"><span style="font-family: 'courier new', courier, monospace;">Let&rsquo;s talk about <em>the</em> <em>Big</em> <em>Guy</em>. The Prime Mover. The Divine Force. The entity you might have once whispered prayers to in the dark, clung to in moments of fear, or maybe just politely ignored until life decided to roundhouse kick you into an existential fucking crisis.</span></p>
