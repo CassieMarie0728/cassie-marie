@@ -1,0 +1,399 @@
+# Pages CMS configuration for CassieMarie0728/cassie-marie
+# Repo shape: static HTML pages + Jekyll/GitHub Pages build.
+# Note: _posts/ is intentionally not exposed here because that rogue Markdown post is being relocated.
+
+media:
+  - name: assets_images
+    label: Assets Images
+    input: assets/images
+    output: /assets/images
+    categories: [image]
+    rename: safe
+  - name: site_images
+    label: Site Images
+    input: images
+    output: /images
+    categories: [image]
+    rename: safe
+
+content:
+  - name: core_files
+    label: Core Site Files
+    type: group
+    items:
+      - name: homepage
+        label: Homepage
+        type: file
+        path: index.html
+        format: code
+        operations: { delete: false }
+      - name: not_found
+        label: 404 Page
+        type: file
+        path: 404.html
+        format: code
+        operations: { delete: false }
+      - name: site_config
+        label: Jekyll Config
+        type: file
+        path: _config.yml
+        fields:
+          - name: title
+            label: Site Title
+            type: string
+            required: true
+          - name: timezone
+            label: Timezone
+            type: string
+            required: true
+          - name: collections
+            label: Collections
+            type: object
+            required: false
+            fields:
+              - name: posts
+                label: Posts Collection
+                type: object
+                required: false
+                fields:
+                  - name: title
+                    label: Title
+                    type: string
+                    required: false
+                  - name: output
+                    label: Output
+                    type: boolean
+                    required: false
+              - name: uploads
+                label: Uploads Collection
+                type: object
+                required: false
+                fields:
+                  - name: title
+                    label: Title
+                    type: string
+                    required: false
+                  - name: output
+                    label: Output
+                    type: boolean
+                    required: false
+      - name: cname
+        label: Custom Domain / CNAME
+        type: file
+        path: CNAME
+        format: code
+        operations: { delete: false }
+      - name: robots
+        label: Robots.txt
+        type: file
+        path: robots.txt
+        format: code
+      - name: sitemap
+        label: Sitemap.xml
+        type: file
+        path: sitemap.xml
+        format: code
+      - name: rss
+        label: RSS Feed
+        type: file
+        path: rss.xml
+        format: code
+
+  - name: main_pages
+    label: Main HTML Pages
+    type: group
+    items:
+      - name: about_the_broad
+        label: ABOUT THE BROAD
+        type: file
+        path: about-the-broad/index.html
+        format: code
+        operations: { delete: false }
+      - name: about
+        label: About
+        type: file
+        path: about/index.html
+        format: code
+        operations: { delete: false }
+      - name: accessibility
+        label: Accessibility
+        type: file
+        path: accessibility/index.html
+        format: code
+        operations: { delete: false }
+      - name: blog
+        label: Blog / Feed
+        type: file
+        path: blog/index.html
+        format: code
+        operations: { delete: false }
+      - name: contact
+        label: Contact
+        type: file
+        path: contact/index.html
+        format: code
+        operations: { delete: false }
+      - name: cookie_policy
+        label: Cookie Policy
+        type: file
+        path: cookie-policy/index.html
+        format: code
+        operations: { delete: false }
+      - name: cookie_shit
+        label: Cookie Shit
+        type: file
+        path: cookie-shit/index.html
+        format: code
+        operations: { delete: false }
+      - name: disclaimer
+        label: Disclaimer
+        type: file
+        path: disclaimer/index.html
+        format: code
+        operations: { delete: false }
+      - name: disclosure
+        label: Disclosure
+        type: file
+        path: disclosure/index.html
+        format: code
+        operations: { delete: false }
+      - name: everybody_gets_in
+        label: Everybody Gets In
+        type: file
+        path: everybody-gets-in/index.html
+        format: code
+        operations: { delete: false }
+      - name: holler_at_me
+        label: Holler At Me
+        type: file
+        path: holler-at-me/index.html
+        format: code
+        operations: { delete: false }
+      - name: holler_at_me_success
+        label: Holler At Me Success
+        type: file
+        path: holler-at-me/success/index.html
+        format: code
+        operations: { delete: false }
+      - name: legal_shit
+        label: Legal Shit
+        type: file
+        path: legal-shit/index.html
+        format: code
+        operations: { delete: false }
+      - name: money_stuff
+        label: Money Stuff
+        type: file
+        path: money-stuff/index.html
+        format: code
+        operations: { delete: false }
+      - name: privacy_policy
+        label: Privacy Policy
+        type: file
+        path: privacy-policy/index.html
+        format: code
+        operations: { delete: false }
+      - name: privacy_stuff
+        label: Privacy Stuff
+        type: file
+        path: privacy-stuff/index.html
+        format: code
+        operations: { delete: false }
+      - name: resources
+        label: Resources
+        type: file
+        path: resources/index.html
+        format: code
+        operations: { delete: false }
+      - name: search
+        label: Search
+        type: file
+        path: search/index.html
+        format: code
+        operations: { delete: false }
+      - name: start_here
+        label: Start Here
+        type: file
+        path: start-here/index.html
+        format: code
+        operations: { delete: false }
+      - name: tags
+        label: Tags
+        type: file
+        path: tags/index.html
+        format: code
+        operations: { delete: false }
+      - name: terms
+        label: Terms
+        type: file
+        path: terms/index.html
+        format: code
+        operations: { delete: false }
+      - name: the_aftermath_diaries
+        label: The Aftermath Diaries
+        type: file
+        path: the-aftermath-diaries/index.html
+        format: code
+        operations: { delete: false }
+      - name: the_rules
+        label: The Rules
+        type: file
+        path: the-rules/index.html
+        format: code
+        operations: { delete: false }
+
+  - name: content_sections
+    label: Section Collections
+    type: group
+    items:
+      - name: html_posts
+        label: Published HTML Posts
+        type: collection
+        path: posts
+        format: code
+        subfolders: true
+        operations:
+          create: false
+          rename: false
+          delete: false
+        view:
+          layout: tree
+          node:
+            filename: index.html
+            hideDirs: others
+      - name: guides
+        label: Guides
+        type: collection
+        path: guides
+        format: code
+        subfolders: true
+        operations:
+          create: false
+          rename: false
+          delete: false
+        view:
+          layout: tree
+          node:
+            filename: index.html
+            hideDirs: others
+      - name: survival_shit
+        label: Survival Shit
+        type: collection
+        path: survival-shit
+        format: code
+        subfolders: true
+        operations:
+          create: false
+          rename: false
+          delete: false
+        view:
+          layout: tree
+          node:
+            filename: index.html
+            hideDirs: others
+      - name: freebies
+        label: Freebies
+        type: collection
+        path: freebies
+        format: code
+        subfolders: true
+        operations:
+          create: false
+          rename: false
+          delete: false
+        view:
+          layout: tree
+          node:
+            filename: index.html
+            hideDirs: others
+      - name: categories
+        label: Category Pages
+        type: collection
+        path: category
+        format: code
+        subfolders: true
+        operations:
+          create: false
+          rename: false
+          delete: false
+        view:
+          layout: tree
+          node:
+            filename: index.html
+            hideDirs: others
+
+  - name: design_and_support
+    label: Design + Support Files
+    type: group
+    items:
+      - name: stylesheet
+        label: Main Stylesheet
+        type: file
+        path: css/style.css
+        format: code
+        operations: { delete: false }
+      - name: site_shell_js
+        label: Site Shell JavaScript
+        type: file
+        path: js/site-shell.js
+        format: code
+        operations: { delete: false }
+      - name: site_config_js
+        label: Site Config JavaScript
+        type: file
+        path: js/site-config.js
+        format: code
+        operations: { delete: false }
+      - name: progressier_js
+        label: Progressier JavaScript
+        type: file
+        path: progressier.js
+        format: code
+        operations: { delete: false }
+      - name: design_notes
+        label: Design Notes
+        type: file
+        path: DESIGN.md
+        fields:
+          - name: body
+            label: Content
+            type: rich-text
+            options:
+              format: markdown
+              media: assets_images
+              switcher: true
+      - name: readme
+        label: README
+        type: file
+        path: README.md
+        fields:
+          - name: body
+            label: Content
+            type: rich-text
+            options:
+              format: markdown
+              media: assets_images
+              switcher: true
+      - name: gitcms_notes
+        label: Legacy GitCMS Notes
+        type: file
+        path: gitcms.md
+        fields:
+          - name: body
+            label: Content
+            type: rich-text
+            options:
+              format: markdown
+              media: assets_images
+              switcher: true
+
+settings:
+  content:
+    merge: true
+  commit:
+    identity: app
+    templates:
+      create: "content(create): {path} via Pages CMS"
+      update: "content(update): {path} via Pages CMS"
+      delete: "content(delete): {path} via Pages CMS"
+      rename: "content(rename): {oldPath} -> {newPath} via Pages CMS"
