@@ -1,11 +1,11 @@
 ---
 title: 'AMEN, MY ASS: GOD, YOU CAN MEET ME IN THE FUCKIN'' PARKING LOT'
-date: 2026-05-10T05:00:00.000Z
+date: 2026-05-10 00:00:00 -05:00
 categories:
-  - blog
+- blog
 layout: single
-
 ---
+
 <p style="text-align: justify;"><span style="font-family: 'courier new', courier, monospace;">Alright, you God-fearing, God-doubting, God-damning saints and sinners, believers and blasphemers, let&rsquo;s get real uncomfortable.&nbsp;Pull up a pew, or a barstool, or just find a relatively clean patch of rubble to plant your weary ass on.&nbsp;We&rsquo;re about to wade into the holiest of shitstorms, the kind of theological cage match that makes polite society choke on its communion wafers and sends good little choirboys running for the goddamn exits.</span></p>
 <p style="text-align: justify;"><span style="font-family: 'courier new', courier, monospace;">Let&rsquo;s talk about <em>the</em> <em>Big</em> <em>Guy</em>. The Prime Mover. The Divine Force. The entity you might have once whispered prayers to in the dark, clung to in moments of fear, or maybe just politely ignored until life decided to roundhouse kick you into an existential fucking crisis.</span></p>
 <p style="text-align: justify;"><span style="font-family: 'courier new', courier, monospace;">Life, in its infinite capacity for brutal, soul-shattering cruelty, took the person who was your world, and your faith&mdash;if it didn&rsquo;t die outright&mdash;got dragged out back and beaten to within an inch of its goddamn life. </span></p>
