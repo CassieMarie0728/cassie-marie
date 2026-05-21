@@ -9,4 +9,5 @@ collections:
     title: Uploads
     output: true
 plugins:
+  - jekyll-seo-tag
 - jekyll-sitemap
