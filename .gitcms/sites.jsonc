@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "sites": [
+    {
+      "key": "nobullshitgrief",
+      "display_name": "Site",
+      "website_url": "http://nobullshitgrief.com/",
+      "root_path": ""
+    }
+  ]
+}

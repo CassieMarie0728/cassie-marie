@@ -1,0 +1,72 @@
+{
+  "version": "1.2",
+  "media": {
+    "default_library": "repo_media",
+    "libraries": [
+      {
+        "key": "repo_media",
+        "label": "Repository media",
+        "references": {
+          "write": {
+            "mode": "root_relative",
+            "base_path": "/"
+          },
+          "allow_default_library_fallback": true
+        },
+        "limits": {
+          "max_file_size_mb": 10
+        },
+        "driver": "git",
+        "storage": {
+          "root_path": "public"
+        }
+      }
+    ]
+  },
+  "ssg_framework": "jekyll",
+  "frontmatter_format": "yaml",
+  "sitemap_url": "http://nobullshitgrief.com/sitemap.xml",
+  "publishing_mode": "editorial_workflow",
+  "collections": [
+    {
+      "name": "_posts",
+      "git_path": "/_posts/",
+      "file_extension": ".md",
+      "filename_pattern": "",
+      "collection_type": "flat",
+      "frontmatter_schema": [
+        {
+          "name": "title",
+          "type": "title",
+          "label": "Title"
+        },
+        {
+          "name": "date",
+          "type": "datetime",
+          "label": "Date",
+          "withTime": true
+        },
+        {
+          "name": "categories",
+          "type": "multiselect",
+          "label": "Categories",
+          "options": [
+            "blog",
+            "the-aftermath-diaries",
+            "holy-sh*t-theyre-gone",
+            "survival-guide",
+            "uncensored-grief",
+            "unfiltered-grief",
+            "no-bullshit-grief"
+          ],
+          "color": "blue"
+        },
+        {
+          "name": "layout",
+          "type": "text",
+          "label": "Layout"
+        }
+      ]
+    }
+  ]
+}
