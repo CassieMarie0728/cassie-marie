@@ -10,4 +10,4 @@ collections:
     output: true
 plugins:
   - jekyll-seo-tag
-- jekyll-sitemap
+  - jekyll-sitemap
